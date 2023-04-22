@@ -22,14 +22,14 @@
 
 #### There are limitations to this approach; however, users can still be recommended movies or shows they’ve previously watched, which is something you must account for. Unfortunately, we cannot use collaborative filtering, but we can try to refine the content-based model by using some more advanced techniques (Recommendations/Insights).
 
-# Recommendations / Insights
+# - Recommendations / Insights
 
 ### *Collaborative Filtering
 #### The biggest advantage of a collaborative filtering system is its ability to adapt to the environment of the platform. It ultimately reflects the preferences of users worldwide and the movies they enjoyed after watching a particular film. Utilizing the extensive amount of data available, the recommendation system is more likely to generate titles the user truly prefers, which bodes well for the company.
 
 ![Collaborative](https://miro.medium.com/v2/resize:fit:1400/1*6_NlX6CJYhtxzRM-t6ywkQ.png)
 
-### *Accounting for User Preferences
+### - Accounting for User Preferences
 #### As I previously mentioned, considering the preferences of the user is of utmost importance for curating the perfect list. If we're able to discover the genres the user likes, the actors whose films they appreciate, and the films trending at that time, it will formulate an exceptional list. Ultimately, we can filter out films that aren't within the scope of the search space, eliminating choices that the user won't select anyways.
 
 # Bibliography/References
