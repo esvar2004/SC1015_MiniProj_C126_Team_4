@@ -1,0 +1,6 @@
+We derived our datasets from Kaggle. The link to the original Kaggle post is given below.
+https://www.kaggle.com/datasets/victorsoeiro/disney-tv-shows-and-movies
+
+Description:
+This data set was created to list all shows available on Disney+ streaming, and analyze the data to find interesting facts. 
+This data was acquired in May 2022 containing data available in the United States.
