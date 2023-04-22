@@ -10,9 +10,11 @@
 #### How do we build a content-based recommendation system for Disney+ TV shows and movies that accounts for similarities in genre and description?
 
 # Data Cleaning and Preparation
+### (Kavipooja & Priyadharshiny)
 #### Cleaning and Preparation of data is the first step we carried out in order to increase the accuracy and quality of the dataset. The characteristics such as 'release_year', 'seasons', 'production_countries', and 'imdb_id' that we have removed aren’t significant to the recommendation system. Selecting and transforming the relevant features (variables) from the raw data to create new features has enabled us to improve the performance of the analysis or machine learning model that is important for data exploration.
 
 # Exploratory Data Analysis
+### (Kavipooja & Priyadharshiny)
 #### Data analysis and exploration is a crucial step that includes categorizing the dataset to observe the changes that occur across the variables in the dataset. Through a variety of complex models, we understood the relationship between variables and the trends associated with a particular variable. Through this, the distribution of data can be understood in a more efficient manner. The following represent the analysis we conducted to develop the recommendation system. 
 #### - TOP 5 Movies according to imdb_score
 #### - Exploring imdb_score - using violin plot
@@ -24,6 +26,7 @@
 #### - Analysis of relationship between runtime and imdb_score - using line plot 
 
 # Machine Learning Techniques
+### (Esvaran)
 #### This model is primarily going to utilize NLP (Natural Language Processing) to recommend movies to users while strictly using a content-based approach. After analyzing the genre and performing vectorization on the description provided, we’ll use cosine similarity to identify the movies that are the most similar.
 
 ![Cosine Similarity](https://miro.medium.com/v2/resize:fit:915/1*dyH20eCqb6qTL-gt4nCVzQ.png)
@@ -33,7 +36,7 @@
 #### There are limitations to this approach; however, users can still be recommended movies or shows they’ve previously watched, which is something you must account for. Unfortunately, we cannot use collaborative filtering, but we can try to refine the content-based model by using some more advanced techniques (Recommendations/Insights).
 
 # - Recommendations / Insights
-
+### (Esvaran)
 ### *Collaborative Filtering
 #### The biggest advantage of a collaborative filtering system is its ability to adapt to the environment of the platform. It ultimately reflects the preferences of users worldwide and the movies they enjoyed after watching a particular film. Utilizing the extensive amount of data available, the recommendation system is more likely to generate titles the user truly prefers, which bodes well for the company.
 
