@@ -6,7 +6,24 @@
 
 #### Our DSAI Mini-Project focuses on developing an elaborate recommendation system for Disney+ movies based on a content-based filtering mechanism. Considering a variety of different characteristics provided in the dataset, we're going to recommend a list of the most similar movies available on the platform after the user has watched a particular film. The metadata (description/genre) is converted into strings using a process called vectorization, which inherently assigns a frequency to each word within the string. Afterward, all the vectors are compared against each other in a similarity matrix that uses cosine similarity to determine which movie B should be recommended upon watching a particular movie A. We need to ensure that the performance of the RS is equivalent for a variety of different users, essentially meaning that the RS shouldn’t perform exceedingly well for certain genres and poorly for others.
 
-## Problem Statement
+# Problem Statement
 #### How do we build a content-based recommendation system for Disney+ TV shows and movies that accounts for similarities in genre and description?
+
+# References
+#### https://towardsdatascience.com/hands-on-content-based-recommender-system-using-python-1d643bf314e4
+
+#### https://pub.towardsai.net/building-a-content-based-recommender-system-2c854ba64f59 
+
+#### https://365datascience.com/tutorials/how-to-build-recommendation-system-in-python/ 
+
+#### https://ijariie.com/AdminUploadPdf/Movie_Recommendation_System_using_Content_based_Filtering_ijariie14954.pdf 
+
+#### https://medium.com/mlearning-ai/building-a-multi-stage-recommendation-system-part-1-1-95961ccf3dd8 
+
+#### https://www.skytowner.com/explore/selecting_top_n_rows_with_the_largest_values_for_a_column_in_pandas 
+
+#### https://developers.google.com/machine-learning/recommendation/collaborative/basics
+
+#### https://towardsdatascience.com/intro-to-recommender-system-collaborative-filtering-64a238194a26
 
 
