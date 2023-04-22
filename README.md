@@ -14,15 +14,15 @@
 
 
 # Exploratory Data Analysis
-Through analyzing our data, we can gain better insights and clarifications on the trends and patterns of values within a dataset. It involves classifying the data to understand variations across the different categories, which depend on numerous factors. In our project, we conducted data analysis on some of the key variables that play a major role in the development of our recommendation system. The three variables are imdb_score, runtime, and age certification, respectively. Through the usage of different visualizations for each variable for exploratory analysis, observations on the distribution of data can be understood in a more efficient manner. 
-- TOP 5 OF imdb_Score
-- Exploring imdb_score
-- Analysis of central tendency across variables
-- Exploring genre
-- Exploring runtime
-- Exploring age_certficiations
-- Analysis of relationship between age_certfication and imdb_score
-- Analysis of relationship between runtime and imdb_score.
+#### Through analyzing our data, we can gain better insights and clarifications on the trends and patterns of values within a dataset. It involves classifying the data to understand variations across the different categories, which depend on numerous factors. In our project, we conducted data analysis on some of the key variables that play a major role in the development of our recommendation system. The three variables are imdb_score, runtime, and age certification, respectively. Through the usage of different visualizations for each variable for exploratory analysis, observations on the distribution of data can be understood in a more efficient manner. 
+#### - TOP 5 of imdb_score
+#### - Exploring imdb_score
+#### - Analysis of central tendency across variables
+#### - Exploring genre
+#### - Exploring runtime
+#### - Exploring age_certficiations
+#### - Analysis of relationship between age_certfication and imdb_score
+#### - Analysis of relationship between runtime and imdb_score.
 
 # Machine Learning Techniques
 #### This model is primarily going to utilize NLP (Natural Language Processing) to recommend movies to users while strictly using a content-based approach. After analyzing the genre and performing vectorization on the description provided, we’ll use cosine similarity to identify the movies that are the most similar.
