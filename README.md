@@ -45,6 +45,8 @@
 ### - Accounting for User Preferences
 #### As I previously mentioned, considering the preferences of the user is of utmost importance for curating the perfect list. If we're able to discover the genres the user likes, the actors whose films they appreciate, and the films trending at that time, it will formulate an exceptional list. Ultimately, we can filter out films that aren't within the scope of the search space, eliminating choices that the user won't select anyways.
 
+# Conclusion 
+#### Overall, the movie recommendation system is a model that helps in suggesting and recommending the movies that interest the user based on their previous search history and the movies they have watched. Making use of various complex algorithms such as Cosine Similarity, Vectorization methods and various filtering methods we have ensured that the recommendation system is of efficient use to the users. Ultimately, the movie recommendation system can increase user engagement, retention, and ultimately revenue. Thus, providing a personalized way to discover new films. 
 # Bibliography/References
 #### https://towardsdatascience.com/hands-on-content-based-recommender-system-using-python-1d643bf314e4
 
