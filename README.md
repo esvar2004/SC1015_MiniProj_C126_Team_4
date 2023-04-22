@@ -9,7 +9,14 @@
 # Problem Statement
 #### How do we build a content-based recommendation system for Disney+ TV shows and movies that accounts for similarities in genre and description?
 
-# References
+# Machine Learning Techniques
+#### This model is primarily going to utilize NLP (Natural Language Processing) to recommend movies to users while strictly using a content-based approach. After analyzing the genre and performing vectorization on the description provided, we’ll use cosine similarity to identify the movies that are the most similar.
+
+#### After vectorizing the data into words, we’ll measure the likeness between different movie descriptions based on the number of common occurrences found.
+
+#### There are limitations to this approach; however, users can still be recommended movies or shows they’ve previously watched, which is something you must account for. Unfortunately, we cannot use collaborative filtering, but we can try to refine the content-based model by using some more advanced techniques.
+
+# Bibliography/References
 #### https://towardsdatascience.com/hands-on-content-based-recommender-system-using-python-1d643bf314e4
 
 #### https://pub.towardsai.net/building-a-content-based-recommender-system-2c854ba64f59 
