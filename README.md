@@ -10,11 +10,11 @@
 #### How do we build a content-based recommendation system for Disney+ TV shows and movies that accounts for similarities in genre and description?
 
 # Data Cleaning and Preparation
-#### Cleaning and Preparation of data is the first step that we have carried out in order to increase the accuracy and quality of the dataset. The characteristics such as 'release_year', 'seasons', 'production_countries', and 'imdb_id' that we have removed aren’t significant to the recommendation system. Selecting and transforming the relevant features (variables) from the raw data to create new features has enabled us to improve the performance of the analysis or machine learning model that is important for data exploration. 
+#### Cleaning and Preparation of data is the first step we carried out in order to increase the accuracy and quality of the dataset. The characteristics such as 'release_year', 'seasons', 'production_countries', and 'imdb_id' that we have removed aren’t significant to the recommendation system. Selecting and transforming the relevant features (variables) from the raw data to create new features has enabled us to improve the performance of the analysis or machine learning model that is important for data exploration.
 
 # Exploratory Data Analysis
-#### Subsequently, data analysis and exploration is a crucial step that includes categorizing the dataset to observe the changes that occurs across the variables in the dataset. Through a variety of complex models who have understood the relationship between variables and the changes that occur in a particular variable. Through this the distribution of data can be understood in a more efficient manner. The following are the analysis we have conducted to develop the recommendation system. 
-#### - TOP 5 of imdb_score
+#### Data analysis and exploration is a crucial step that includes categorizing the dataset to observe the changes that occur across the variables in the dataset. Through a variety of complex models, we understood the relationship between variables and the trends associated with a particular variable. Through this, the distribution of data can be understood in a more efficient manner. The following represent the analysis we conducted to develop the recommendation system. 
+#### - TOP 5 Movies according to imdb_score
 #### - Exploring imdb_score - using violin plot
 #### - Analysis of central tendency across variables - histogram analysis 
 #### - Exploring genre - using bar chart 
