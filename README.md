@@ -37,7 +37,7 @@
 
 # - Recommendations / Insights
 ### (Esvaran)
-### *Collaborative Filtering
+### - Collaborative Filtering
 #### The biggest advantage of a collaborative filtering system is its ability to adapt to the environment of the platform. It ultimately reflects the preferences of users worldwide and the movies they enjoyed after watching a particular film. Utilizing the extensive amount of data available, the recommendation system is more likely to generate titles the user truly prefers, which bodes well for the company.
 
 ![Collaborative](https://miro.medium.com/v2/resize:fit:1400/1*6_NlX6CJYhtxzRM-t6ywkQ.png)
