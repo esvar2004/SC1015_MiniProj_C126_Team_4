@@ -10,19 +10,18 @@
 #### How do we build a content-based recommendation system for Disney+ TV shows and movies that accounts for similarities in genre and description?
 
 # Data Cleaning and Preparation
-#### Clean the data set by removing all the unnecessary columns. This increases the accuracy and quality of the data and reduces the issue of redundancy and memory usage. The characteristics we removed aren’t significant to the recommendation system. Extraction of some important variables required for our data exploration. These extractions allow us to have a closer look at the data values of these columns.
-
+#### Cleaning and Preparation of data is the first step that we have carried out in order to increase the accuracy and quality of the dataset. The characteristics such as 'release_year', 'seasons', 'production_countries', and 'imdb_id' that we have removed aren’t significant to the recommendation system. Selecting and transforming the relevant features (variables) from the raw data to create new features has enabled us to improve the performance of the analysis or machine learning model that is important for data exploration. 
 
 # Exploratory Data Analysis
-#### Through analyzing our data, we can gain better insights and clarifications on the trends and patterns of values within a dataset. It involves classifying the data to understand variations across the different categories, which depend on numerous factors. In our project, we conducted data analysis on some of the key variables that play a major role in the development of our recommendation system. The three variables are imdb_score, runtime, and age certification, respectively. Through the usage of different visualizations for each variable for exploratory analysis, observations on the distribution of data can be understood in a more efficient manner. 
+#### Subsequently, data analysis and exploration is a crucial step that includes categorizing the dataset to observe the changes that occurs across the variables in the dataset. Through a variety of complex models who have understood the relationship between variables and the changes that occur in a particular variable. Through this the distribution of data can be understood in a more efficient manner. The following are the analysis we have conducted to develop the recommendation system. 
 #### - TOP 5 of imdb_score
-#### - Exploring imdb_score
-#### - Analysis of central tendency across variables
-#### - Exploring genre
-#### - Exploring runtime
-#### - Exploring age_certficiations
-#### - Analysis of relationship between age_certfication and imdb_score
-#### - Analysis of relationship between runtime and imdb_score.
+#### - Exploring imdb_score - using violin plot
+#### - Analysis of central tendency across variables - histogram analysis 
+#### - Exploring genre - using bar chart 
+#### - Exploring runtime - using histogram plot 
+#### - Exploring age_certficiations - using countplot 
+#### - Analysis of relationship between age_certfication and imdb_score - using bivariate histogram with a heatmap 
+#### - Analysis of relationship between runtime and imdb_score - using line plot 
 
 # Machine Learning Techniques
 #### This model is primarily going to utilize NLP (Natural Language Processing) to recommend movies to users while strictly using a content-based approach. After analyzing the genre and performing vectorization on the description provided, we’ll use cosine similarity to identify the movies that are the most similar.
